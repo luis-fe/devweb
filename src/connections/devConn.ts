@@ -8,5 +8,5 @@ export const DevDataSource = new DataSource({
     username: "postgres",
     password: "postgres",
     database: "devweb",
-    //entides
+    //entities
 })

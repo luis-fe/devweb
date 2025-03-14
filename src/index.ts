@@ -1,6 +1,10 @@
 import express = require("express")
 import cors = require("express")
+import { DevDataSource } from "./connections/devConn"
 
+
+DevDataSource.initialize().then()
+    console.log("database connected!")
 
 const app = express()
 
